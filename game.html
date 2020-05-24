@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="app.css">
+	</head>
+	<body>
+		<div class="front-page">
+			<h2>Welcome to Tic Tac Toe game!<h2>
+			<h3>
+			<ol>
+				<li>Start a new game - Simply click on 'START GAME'</li>
+				<li>Join an existing game - Enter the group id for the game (displayed on first window)</li>
+				<li>Click on 'JOIN' to start playing :)</li>
+			</ol>
+			</h3>
+			<h4>Ready to play?</h4>
+			<button id="start">START GAME</button>
+			<br><br>
+			<h4>Enter to an existing game. </h4>
+			<input type="text" name="group" id="group" placeholder="Group ID">
+			<button id="join">JOIN</button>
+		</div>
+		<div class="board">
+			<h2 id="greeting"></h2>
+			<h3 id="turn"></h3>
+			<table>
+				<tr>
+					<td><button class="box" id="button_00"></button></td>
+					<td><button class="box" id="button_01"></button></td>
+					<td><button class="box" id="button_02"></button></td>
+				</tr>
+				<tr>
+					<td><button class="box" id="button_10"></button></td>
+					<td><button class="box" id="button_11"></button></td>
+					<td><button class="box" id="button_12"></button></td>
+				</tr>
+				<tr>
+					<td><button class="box" id="button_20"></button></td>
+					<td><button class="box" id="button_21"></button></td>
+					<td><button class="box" id="button_22"></button></td>
+				</tr>
+			</table>
+
+		</div>
+		<br><br>
+		<div class="reset">
+  			<button id="reset">RESET</button>
+		</div>
+		
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

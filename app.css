@@ -1,0 +1,13 @@
+.box{
+	width: 90px;
+	height: 90px;
+	font-size: 65px;
+}
+
+.board{
+	display: none;
+}
+
+.center{
+	margin: 0 auto;
+}
