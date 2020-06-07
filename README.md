@@ -1,7 +1,2 @@
 # tic-tac-toe
-
-Feature: This game allows two players against each other or one player against the computer
-![alt text](https://github.com/hlthung/tic-tac-toe/blob/master/sample%20screenshots/1.png)
-![alt text](https://github.com/hlthung/tic-tac-toe/blob/master/sample%20screenshots/2.png)
-![alt text](https://github.com/hlthung/tic-tac-toe/blob/master/sample%20screenshots/3.jpg)
-![alt text](https://github.com/hlthung/tic-tac-toe/blob/master/sample%20screenshots/4.jpg)
+A classic Tic Tac Toe game that load on the browsers to let players play against each other. Multipe game rooms are supported.
